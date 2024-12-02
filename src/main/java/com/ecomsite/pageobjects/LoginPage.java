@@ -30,7 +30,7 @@ public class LoginPage extends BaseClass {
 		PageFactory.initElements(driver, this);
 	}
 
-	public boolean verifyLoginTitle() {
+	public boolean verifyLoginTitle() { 
 		return action.isDisplayed(driver, loginTitle);
 	}
 
